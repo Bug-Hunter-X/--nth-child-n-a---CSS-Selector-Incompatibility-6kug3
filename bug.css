@@ -1,0 +1,1 @@
+The CSS rule `:nth-child(n+a)` selector is not supported in some older browsers.  This can lead to unexpected rendering or layout issues. The selector attempts to select elements based on their position within their parent, but older browser may not correctly interpret this complex selector. 
