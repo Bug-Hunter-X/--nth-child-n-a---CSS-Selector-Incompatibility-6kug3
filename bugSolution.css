@@ -1,0 +1,8 @@
+/* bugSolution.css */
+
+/*Original problematic code*/
+/*.container div:nth-child(n+3) {  background-color: yellow; }*/
+
+/* Solution: Using the :nth-of-type selector and multiple selectors for older browser support */ 
+.container div:nth-of-type(3n+3){ background-color: yellow; }
+.container div:nth-of-type(3), .container div:nth-of-type(6), .container div:nth-of-type(9){background-color:yellow;} /* fallback */
